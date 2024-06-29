@@ -210,9 +210,10 @@ module.exports = function (req, res, url) {
                 <div class="site-footer-nav-col">
                     <h5>About GoAnimate</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://discord.gg/bb8xXaWPv3">Who We Are</a></li>
-                        <li><a href="https://discord.gg/bb8xXaWPv3">Contact Us</a></li>
-                        <li><a href="https://discord.gg/bb8xXaWPv3">Blog</a></li>
+                        <li><a href="https://web.archive.org/web/20161231134647/http://goanimate.com/about">Who We Are</a></li>
+                        <li><a href="https://web.archive.org/web/20161231134647/http://goanimate.com/contactus">Contact Us</a></li>
+                        <li><a href="https://web.archive.org/web/20161231134647/http://goanimate.com/video-maker-tips">Blog</a></li>
+                        <li><a href="https://web.archive.org/web/20161231134647/http://press.goanimate.com/">Press</a></li>
                     </ul>
                 </div>
             </div>
@@ -221,8 +222,20 @@ module.exports = function (req, res, url) {
                 <div class="site-footer-nav-col">
                     <h5>GoAnimate Solutions</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://itsredacted.000webhostapp.com/" target="_blank">GoAnimate for Schools</a></li>
+                        <li><a href="https://web.archive.org/web/20161231134647/http://goanimate4schools.com/" target="_blank">GoAnimate for Schools</a></li>
                         <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>Usage Guidelines</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/web/20161231134647/https://goanimate4schools.com/termsofuse">Terms of Service</a></li>
+                        <li><a href="/web/20161231134647/https://goanimate4schools.com/privacy">Privacy Policy</a></li>
                         <li class="hidden-xs">&nbsp;</li>
                         <li class="hidden-xs">&nbsp;</li>
                     </ul>
@@ -233,36 +246,80 @@ module.exports = function (req, res, url) {
                 <div class="site-footer-nav-col">
                     <h5>Getting Help</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://discord.gg/bb8xXaWPv3">Help Center</a></li>
+                        <li><a href="https://web.archive.org/web/20161231134647/http://blog.goanimate4schools.com/">Educator Experiences</a></li>
+                        <li><a href="https://web.archive.org/web/20161231134647/https://goanimate4schools.zendesk.com/hc/en-us">Help Center</a></li>
                         <li class="hidden-xs">&nbsp;</li>
                         <li class="hidden-xs">&nbsp;</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <hr>
+        <hr/>
 
         <div class="row site-footer-copyright">
             <div class="col-sm-6">
                 <div class="site-footer-socials-container">
                     Follow us on:
                     <ul class="site-footer-socials clearfix">
-                        <li><a class="youtube" href="https://www.youtube.com/channel/UCiEYUXgWlGQqYfxyMhYGWRQ">YouTube</a></li>
+                        <li><a class="facebook" href="https://web.archive.org/web/20161231134647/https://www.facebook.com/GoAnimateInc">Facebook</a></li>
+                        <li><a class="twitter" href="https://web.archive.org/web/20161231134647/https://twitter.com/Go4Schools">Twitter</a></li>
+                        <li><a class="linkedin" href="https://web.archive.org/web/20161231134647/https://www.linkedin.com/company/goanimate">Linked In</a></li>
+                        <li><a class="gplus" href="https://web.archive.org/web/20161231134647/https://plus.google.com/+goanimate">Google+</a></li>
+                        <li><a class="youtube" href="https://web.archive.org/web/20161231134647/https://www.youtube.com/user/GoAnimate">YouTube</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="pull-right">
-                    <img src="/html/img/logo_amazon.png" alt="AWS Partner Network">
+                    <span class="site-footer-norton">
+                      <script type="text/javascript" src="https://web.archive.org/web/20161231134647js_/https://seal.websecurity.norton.com/getseal?host_name=goanimate.com&amp;size=S&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=en"></script>
+                    </span>
+                    <img src="https://web.archive.org/web/20161231134647im_/https://d2qrjeyl4jwu9j.cloudfront.net/static/766ffff01a7a3e3a/school/img/site/logo_amazon.png" alt="AWS Partner Network"/>
                     &nbsp;&nbsp;&nbsp;
-                    GoAnimate © 2024
+                    GoAnimate &copy; 2024
                 </div>
             </div>
         </div>
 
     </div>
 </footer>
-	</body>${stuff.pages[url.pathname] || ""}`
-	);
-	return true;
-};
+
+
+<div id="studio_container" style="display: none;">
+    <div id="studio_holder"><!-- Full Screen Studio -->
+        <div style="top: 50%; position: relative;">
+            This content requires the Adobe Flash Player 10.3. <a href="https://web.archive.org/web/20161231134647/http://get.adobe.com/flashplayer/">Get Flash</a>
+        </div>
+    </div>
+</div>
+
+<!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//web.archive.org/web/20161231134647/https://js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/491659.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
+
+<!-- SharpSpring begin -->
+<script type="text/javascript">
+var _ss = _ss || [];
+_ss.push(['_setDomain', 'https://web.archive.org/web/20161231134647/https://koi-3q6b8sg59e.marketingautomation.services/net']);
+_ss.push(['_setAccount', 'KOI-1OTR0IV8I']);
+_ss.push(['_trackPageView']);
+(function() {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript'; ss.async = true;
+
+    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1';
+    var scr = document.getElementsByTagName('script')[0];
+    scr.parentNode.insertBefore(ss, scr);
+})();
+</script>
+<!-- SharpSpring end -->
+
+</body>
+</html>
